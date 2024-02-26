@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 1px solid; */
 }
 
 /* header start */
@@ -50,7 +51,6 @@ header a {
     width: 100%;
     height: 100%;
     filter: blur(3px);
-
 }
 
 h3 {
@@ -175,30 +175,29 @@ hr {
     width: 50%;
     margin: 0 auto 10px;
 }
-/*  
-@media (min-width: 320px) {
+
+@media (min-width: 320px) and (max-width: 767px) {
     header {
         padding: 0 10px;
     }
     header img {
-        width: 22%;
-        height: 22%;
+        width: 35% !important;
+        margin-bottom: 5px;
     }
     header p {
-        font-size: 10px;
-        padding-top: 12px;
-        margin-bottom: -8px;
+        font-size: 12px !important;
+        padding-top: 15px !important;
     }
     header a {
-        font-size: 10px;
+        font-size: 12px !important;
     }
 
     .content {
-        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 30PX;
     }
-    .content::before {
-        filter: blur(3px);
-        display: block;
+    .bg {
+        filter: blur(2px);
     }
 
     h3 {
@@ -208,19 +207,19 @@ hr {
     h3::before {
         width: 25px;
         height: 25px;
-        top: -2px;
-        left: 70px;
+        top: 28px;
+        left: 88px !important;
     }
     h3::after {
         width: 25px;
         height: 25px;
-        bottom: -8px;
-        right: 70px;
+        bottom: 10px;
+        right: 85px !important;
     }
 
     .cards {
         margin: 50px auto 30px;
-        width: 90%; 
+        width: 90% !important; 
     }
 
     h1 {
@@ -229,41 +228,42 @@ hr {
         margin-right: -10px;
     }
     h5 {
-        font-size: 15px;
+        font-size: 12px !important;
+        margin-top: 5PX !important;
     }
 
     .num h5 {
-        margin-left: 5px;
+        margin-right: 5px;
     }
     .number p {
-        width: 28px;
+        width: 28px !important;
     }
     .number .pr {
-        margin-left: -15px;
+        margin-left: -10PX !important;
     }
     .number .u {
-        margin-left: 15px;
+        margin-left: -30px !important;
     }
 
     .head {
         padding: 0 10px;
     }
     .body {
-        font-size: 10px;
+        font-size: 10px !important;
         margin-right: -10px;
     }
-    .body hr {
-        color: var(--blue);
-        width: 200px;
-        margin-right: -15px;
-    }
+
 
     footer {
-        padding: 10px;
+        padding: 0 !important;
     }
 
+    .contact {
+        margin: 0;
+        width: 100% !important;
+    }
     .contact img {
-        width: 15px;
+        /* width: 15px; */
         height: 15px;
         margin-right: 0px;
         margin-left: 3px;
@@ -284,8 +284,12 @@ hr {
         margin-top: -15px;
         margin-bottom: 0;
     }
-}
 
+    hr {
+        margin: 0;
+    }
+}
+/*
 @media (max-width: 375px) {
     header img {
         width: 20%;
@@ -311,6 +315,7 @@ hr {
     .number p {
         width: 32px;
     }
+
 }
 
 @media (max-width: 425px) {
