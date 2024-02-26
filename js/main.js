@@ -64,7 +64,7 @@ function displayGyps(filteredGyps) {
                     <p class="pr">${product.price}</p>
                 </div>
                 </div>
-                <hr>
+                
         `;
     });
 }
@@ -79,7 +79,7 @@ function displayM3dn(filteredM3dn) {
                     <p class="pr">${product.price}</p>
                 </div>
             </div>
-            <hr>
+            
         `;
     })
 }
@@ -94,7 +94,7 @@ function displayAcc(filteredAcc) {
                     <p class="pr">${product.price}</p>
                 </div>
             </div>
-            <hr>
+            
         `;
     });
 }
