@@ -208,13 +208,13 @@ hr {
         width: 25px;
         height: 25px;
         top: 28px;
-        left: 88px !important;
+        left: 120px !important;
     }
     h3::after {
         width: 25px;
         height: 25px;
         bottom: 10px;
-        right: 85px !important;
+        right: 120px !important;
     }
 
     .cards {
@@ -228,7 +228,7 @@ hr {
         margin-right: -10px;
     }
     h5 {
-        font-size: 12px !important;
+        font-size: 15px !important;
         margin-top: 5PX !important;
     }
 
@@ -249,7 +249,7 @@ hr {
         padding: 0 10px;
     }
     .body {
-        font-size: 10px !important;
+        font-size: 13px !important;
         margin-right: -10px;
     }
 
