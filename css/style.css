@@ -348,7 +348,7 @@ hr {
     }
 
     .num h5 {
-        margin-right: 20px;
+        margin-right: 35px;
     }
     .number p {
         width: 35px;
@@ -375,7 +375,7 @@ hr {
 
     .contact {
         width: 335px;
-        margin: 0 30px;
+        margin: 0 auto;
         padding-top: 10px;
     }
     .contact img {
